@@ -1,0 +1,74 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object Button1: TButton
+    Position.X = 224.000000000000000000
+    Position.Y = 8.000000000000000000
+    TabOrder = 0
+    Text = 'Open BLP'
+    OnClick = Button1Click
+  end
+  object TrackBar1: TTrackBar
+    CanParentFocus = True
+    Frequency = 1.000000000000000000
+    Orientation = Horizontal
+    Position.X = 96.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    OnChange = TrackBar1Change
+  end
+  object MipLevel: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'MipLevel'
+  end
+  object Label1: TLabel
+    Position.X = 248.000000000000000000
+    Position.Y = 112.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '0'
+  end
+  object Image1: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Position.X = 96.000000000000000000
+    Position.Y = 168.000000000000000000
+  end
+  object Label2: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 168.000000000000000000
+    Text = 'Image'
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 320
+    Top = 8
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 8.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
