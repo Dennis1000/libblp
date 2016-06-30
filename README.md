@@ -4,7 +4,7 @@ for Delphi 10.1 Berlin+ by Dennis Spreen
 http://blog.spreendigital.de/2016/06/16/libblp/
 
 
-**Uses code from Nihlus/libwarcraft https://github.com/Nihlus/libwarcraft**
+**Uses GPLv3 licensed code from [Nihlus/libwarcraft](https://github.com/Nihlus/libwarcraft)**
 
 
 (c) Copyrights 2016 Dennis D. Spreen <dennis@spreendigital.de>
